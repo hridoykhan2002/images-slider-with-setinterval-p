@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.img{
+    height: 500px;
+    width: 500px;
+    border-radius: 1rem;
+    margin: 30px;
+}
+button{
+    outline: none;
+    padding: 3px 20px;
+    border: 1px solid grey;
+    border-radius: 1rem;
+    transition: all ease-in-out .2s;
+}
+button:hover{
+    background-color: rgb(78, 78, 78);
+    color: white;
+    transform: scale(1.1);
+}
